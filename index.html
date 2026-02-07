@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DevRush – Build Under Pressure</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav>
+    <h1>DevRush · Build. Fix. Escape.</h1>
+    <a href="#" class="btn" onclick="startRedirect()">Join Now</a>
+  </nav>
+
+  <section class="hero">
+    <div class="glass">
+      <h2>Build Under Pressure</h2>
+      <p>Speed, precision, and creativity decide the winner.</p>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat">
+      <h3>15+</h3>
+      <span>Minutes</span>
+    </div>
+    <div class="stat">
+      <h3>30</h3>
+      <span>Points</span>
+    </div>
+    <div class="stat">
+      <h3>1</h3>
+      <span>Winner</span>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h4>Precision</h4>
+      <p>Exact spacing and alignment.</p>
+    </div>
+
+    <div class="card active">
+      <h4>Speed</h4>
+      <p>Time works against you.</p>
+    </div>
+
+    <div class="card">
+      <h4>Focus</h4>
+      <p>No distractions allowed.</p>
+    </div>
+  </section>
+
+  <section class="modules">
+    <h2>Challenge Modules</h2>
+    <div class="grid">
+      <div class="module">Layout Replication</div>
+      <div class="module">CSS Styling</div>
+      <div class="module active">Glass UI</div>
+      <div class="module">Color Theory</div>
+      <div class="module">Spacing Logic</div>
+      <div class="module">Time Control</div>
+    </div>
+  </section>
+
+  <footer>
+    © TECHVERSE 2026
+  </footer>
+
+  <!-- Preparing Overlay -->
+  <div id="redirectOverlay" class="redirect-overlay hidden">
+    <div class="redirect-card">
+      <div class="loader"></div>
+      <h2>Preparing Your Challenge</h2>
+      <p>You will be redirected in <span id="count">5</span> seconds</p>
+      <span class="skip" onclick="goToChallenge()">Continue</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
